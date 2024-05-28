@@ -105,9 +105,35 @@ header div .col-2 span img {
     background-color: lightgray;
 }
 
-.col-1-5-nav {
+.col-2-nav {
+    position: fixed;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #0d243b;
     margin-top: 70px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-image: url('../img/sidebar-bg.png');
+    background-size: contain;
+}
+
+.link1-5nav {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.link1-5nav img {
+    width: 20px;
+    padding-right: 15px;
+}
+
+.link1-5nav:hover {
+    background-color: #2d3945c1;
+    border-radius: 10px;
 }
 
