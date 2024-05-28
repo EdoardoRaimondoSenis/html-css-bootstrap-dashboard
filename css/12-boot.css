@@ -1,3 +1,13 @@
+.container {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .col-1 {
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
@@ -74,4 +84,31 @@
     flex-basis: calc((100% / 12) * 2);
     max-width: calc((100% / 12) * 2);
     height: calc(100% - 120px);
+}
+
+.col-4-studenti {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc((100% / 12) * 4);
+    max-width: calc((100% / 12) * 4);
+    height: 100%;
+}
+
+.col-6-pagine {
+    flex-basis: calc((100% / 12) * 6);
+    max-width: calc((100% / 12) * 6);
+    height: 100%;
+}
+
+.col-11-main {
+    flex-basis: calc((100% / 12) * 11);
+    max-width: calc((100% / 12) * 11 - 10.25px);
+    height: calc(100% - 70px);
+}
+
+.col-12-barmain {
+    display: flex;
+    flex-basis: calc((100% / 12) * 12);
+    max-width: calc((100% / 12) * 12);
+    height: calc(25% - 40px);
 }
