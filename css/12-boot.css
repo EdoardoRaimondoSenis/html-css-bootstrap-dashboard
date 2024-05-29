@@ -85,8 +85,8 @@
 }
 
 .col-4-todo {
-    flex-basis: calc((100% / 12) * 4);
-    max-width: calc((100% / 12) * 4);
+    flex-basis: calc((100% / 12) * 12);
+    max-width: calc((100% / 12) * 12);
     height: 80vh;
     flex-wrap: wrap;
 }
@@ -117,4 +117,10 @@
     flex-basis: calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
     height: calc(25% - 40px);
+}
+
+.containermaindx {
+    flex-basis: calc((100% / 12) * 4);
+    max-width: calc((100% / 12) * 4);
+    height: 100%;
 }

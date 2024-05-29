@@ -345,3 +345,50 @@ main {
     background-color: white;
     margin: 0 20px;
 }
+
+.todoblock {
+    position: absolute;
+    top: 90px;
+    margin: 20px;
+    border: solid 2px #e7e8e8;
+    width: calc(100%);
+    max-width: calc(100% - 40px);
+    border-radius: 10px;
+}
+
+.todorow {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    border-bottom: solid 2px #e7e8e8;
+}
+
+.todorowlast {
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+
+.col-4-utenti {
+    position: relative;
+    display: flex;
+    border: solid 2px #e7e8e8;
+    height: 280px;
+    max-height: 280px;
+    border-radius: 15px;
+    background-color: white;
+    margin: 20px;
+}
+
+.containerutenti {
+    border: solid 2px #e7e8e8;
+    border-radius: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+.grafico img {
+    width: calc(100% - 20px);
+    margin: 10px;
+}
+
