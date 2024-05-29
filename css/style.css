@@ -204,9 +204,10 @@ main {
     position: relative;
     display: flex;
     border: solid 2px #e7e8e8;
-    min-height: 580px;
+    height: 580px;
     border-radius: 15px;
     background-color: white;
+    margin-bottom: 20px;
 }
 
 .titlecard {
@@ -255,6 +256,7 @@ main {
 
 .padd {
     padding: 1vh 0;
+    min-width: 100%;
 }
 
 .tac {
@@ -265,6 +267,7 @@ main {
     align-items: center;
     height: 50px;
     border-top: solid 2px #e7e8e8;
+    min-width: 100%;
 }
 
 .borderow:hover {
@@ -363,6 +366,10 @@ main {
     border-bottom: solid 2px #e7e8e8;
 }
 
+.listtodo {
+    padding: 5px 10px;
+}
+
 .todorowlast {
     display: flex;
     align-items: center;
@@ -373,8 +380,7 @@ main {
     position: relative;
     display: flex;
     border: solid 2px #e7e8e8;
-    height: 280px;
-    max-height: 280px;
+    height: 610px;
     border-radius: 15px;
     background-color: white;
     margin: 20px;
@@ -387,8 +393,59 @@ main {
     width: 100%;
 }
 
+.borbott {
+    border-bottom: solid 2px #e7e8e8;
+}
+
+.borbottlast .utentiattivi {
+    padding: 20px 10px;
+}
+
 .grafico img {
     width: calc(100% - 20px);
     margin: 10px;
 }
 
+.utentiattivi {
+    padding: 10px;
+}
+
+.utentiattivi h3 {
+    margin: 10px 0;
+}
+
+.faq {
+    height: 290px;
+}
+
+.linkfaq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    width: calc(100% - 20px);
+}
+
+.borderowfaq {
+    height: 50px;
+    border-bottom: solid 2px #e7e8e8;
+    min-width: calc(100% - 20px);
+    margin: 0 auto;
+}
+
+.borderowfaqlast {
+    height: 50px;
+    min-width: calc(100% - 20px);
+    margin: 0 auto;
+}
+
+.borderowfaq:hover,
+.borderowfaqlast:hover {
+    background-color: #c4c4c45d;
+    border-radius: 15px;
+    transition: 300ms;
+}
+
+.imgfaq {
+    width: 20px;
+}
